@@ -2,9 +2,9 @@ import nmap # require python-nmap library + nmap
 import sys
 import time
 
-# Parameters
-ip_address = sys.argv[1] # inline variable
-port 	   = 80
+# Parameters in command line
+ip_address = sys.argv[1] 
+port 	   = int(sys.argv[2])
 
 # Instantiate a scanner
 nm_scan = nmap.PortScanner()
@@ -25,4 +25,4 @@ with open("%s.txt" % ip_address, 'w') as file:
 	file.write(host_is_up + port_open + method_scan + guessed_os)
 	file.write("\nReport generated " + time.strftime("%Y-%m-%d %H:%M:%S GMT", time.gmtime()))
 
-print("\nFinished")
+print("Finished\n")

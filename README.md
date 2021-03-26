@@ -13,11 +13,11 @@ Prerequisites:
 - ```python-nmap``` library
 	- how to install: ```pip install python-nmap```
 
-Run the script with IPv4 address:
+Run the script with IPv4 address (```X.X.X.X```) and port:
 
-- ```python3 ./network_scan.py X.X.X.X ```
+- ```python3 ./network_scan.py ip_address port```
 
 Output:
 
-- Status of the host, the open port, the scanning method, the likely OS in a ```X.X.X.X.txt``` file, with a timestamp.
+- Status of the host, the open port, the scanning method, the likely OS in a ```ip_address.txt``` file, with a timestamp.
 
