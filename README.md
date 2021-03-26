@@ -1,6 +1,6 @@
 # hackingTools
 
-Simple Ethical hacking tools in Python 3 for personal educative purpose. 
+Simple Ethical hacking tools in Python 3 for personal educative purposes. 
 
 ## Network scanner
 
@@ -8,9 +8,9 @@ Automated network scanner with nmap: ```network_scan.py```.
 
 Prerequisites:
 
-- ```nmap```
+- ```nmap``` tool
 	- how to install: https://nmap.org/
-- ```python-nmap```
+- ```python-nmap``` library
 	- how to install: ```pip install python-nmap```
 
 Run the script with IPv4 address:
